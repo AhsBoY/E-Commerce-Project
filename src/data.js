@@ -1,0 +1,11 @@
+const data = [
+    {name: "Become a product Manager learn the skills & job.", img: "https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_1187833318_2000133220009280118_mbtvwq.jpg" , Instructor: "Jim Séchen" , lessons : 43 , price : 32.00},
+    {name: "Fundamentals of music theory Learn new", img: "https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_1187833318_2000133220009280118_mbtvwq.jpg" , Instructor: "Barry Tone" , lessons : 72 , price : 32.00},
+    {name: "Bases Matemáticas dios Álgebra Ecuacion", img: "https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_1187833318_2000133220009280118_mbtvwq.jpg" , Instructor: "Samuel Sherif" , lessons : 40 , price : 60.00},
+    {name: "Strategy law and organization Foundation.", img: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201807/online_courses.jpeg?_k4pOSdOEUNDnGIjpSfNCr.mJdcX4WFP&size=770:433" , Instructor: "Elon Gated" , lessons : 50 , price : 80.00},
+    {name: "The business Intelligence analyst Course 2022.", img: "https://www.ibm-institute.com/wp-content/uploads/2018/10/leadership-1.jpg" , Instructor: "Eleanor Fant" , lessons : 40 , price : 100.00},
+    {name: "Creative writing through Storytelling.", img: "https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_1187833318_2000133220009280118_mbtvwq.jpg" , Instructor: "Huf Séchen" , lessons : 43 , price : 92.00},
+    {name: "Mastering In Business Skill.", img: "https://bmmagazine.co.uk/wp-content/uploads/2013/01/Axa_board_room_2201751b.jpg" , Instructor: "Hilary Ouse" , lessons : 30 , price : 89.00},
+    {name: "Build your media and Public presence.", img: "https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_1187833318_2000133220009280118_mbtvwq.jpg" , Instructor: "Pelican Steve" , lessons : 43 , price : 72.00},
+    {name: "Become a Professional Devoloper.", img: "https://www.arch2o.com/wp-content/uploads/2021/01/Arch2O-500-free-online-courses-in-architecture-art-design-engineering.jpg" , Instructor: "Jhankar Mahbub" , lessons : 70 , price : 40.00}
+]

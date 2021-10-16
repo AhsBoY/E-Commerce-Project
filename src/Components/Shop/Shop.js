@@ -25,7 +25,7 @@ const Shop = () => {
 
     const handleAddToCart = (product) => {
         const exists = cart.find(pd => pd.key === product.key)
-        console.log(exists)
+        // console.log(exists)
         let newCart = []
         if(exists){
             const rest = cart.filter(pd => pd.key !== product.key)

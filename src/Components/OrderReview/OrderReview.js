@@ -18,9 +18,9 @@ const OrderReview = () => {
     }
 
     const handlePlaceOrder = () => {
-        history.push("/placeorder")
-        setCart([]) //// ui theke data sore jabe
-        clearTheCart();
+        history.push("/shipping")
+        /* setCart([]) //// ui theke data sore jabe
+        clearTheCart();   */ //// clear from local storage so that it cant show again in ui
     }
 
     return (
@@ -36,7 +36,7 @@ const OrderReview = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart}>
-                    <button onClick = {handlePlaceOrder} className= "btn-regular">Place Order</button>
+                    <button onClick = {handlePlaceOrder} className= "btn-regular">Proceed To Shipping</button>
                 </Cart>
             </div>
         </div>

@@ -8,7 +8,7 @@ const Login = () => {
     const { signInUsingGoogle } = useAuth()
     const history = useHistory()
     const location = useLocation()
-    const redirect_Uri = location.state?.from || "/"
+    const redirect_Uri = location.state?.from || "/"  /* very very important */
     console.log("came from", location.state?.from)
 
     const handleGoogleSignIn = () => {

@@ -13,7 +13,7 @@ const Shop = () => {
     const [displayProducts, setDisplayProducts] = useState([]);
 
     useEffect(() => {
-        fetch('./products.JSON')
+        fetch('./products.json')
             .then(res => res.json())
             .then(data => {
                 setProducts(data);
@@ -27,16 +27,16 @@ const Shop = () => {
         const exists = cart.find(pd => pd.key === product.key)
         // console.log(exists)
         let newCart = []
-        if(exists){
+        if (exists) {
             const rest = cart.filter(pd => pd.key !== product.key)
             exists.quantity = exists.quantity + 1
-            newCart = [...rest , exists]
+            newCart = [...rest, exists]
         }
-        else{
+        else {
             product.quantity = 1;
-             newCart = [...cart, product]
+            newCart = [...cart, product]
         }
-        
+
         console.log(newCart)
         setCart(newCart);
         // save to local storage (for now)
@@ -74,7 +74,7 @@ const Shop = () => {
                 <div className="cart-container">
                     <Cart cart={cart}>
                         <NavLink to="/orders">
-                            <button className = "btn btn-regular">Review Your Order</button>
+                            <button className="btn btn-regular">Review Your Order</button>
                         </NavLink>
                     </Cart>
                 </div>
